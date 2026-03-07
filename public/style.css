@@ -1,5 +1,5 @@
 body {
   background-image: url("bg.png");
-  background-size: fill;
+  background-size:contain;
   background-repeat: no-repeat;
 }
