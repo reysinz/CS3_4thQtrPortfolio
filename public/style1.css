@@ -1,0 +1,48 @@
+body{
+font-family: Arial;
+background:#f2f2f2;
+display:flex;
+justify-content:center;
+margin-top:40px;
+}
+
+.container{
+background:white;
+padding:20px;
+border-radius:10px;
+width:300px;
+box-shadow:0 0 10px rgba(255, 187, 219, 0.278);
+}
+
+input, select{
+width:100%;
+padding:8px;
+margin:6px 0;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#f4adcb;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.star{
+font-size:22px;
+color:gray;
+cursor:pointer;
+}
+
+.star.active{
+color:rgb(249, 216, 229);
+}
+
+.movie{
+background:#eee;
+padding:8px;
+margin-top:8px;
+border-radius:5px;
+}
